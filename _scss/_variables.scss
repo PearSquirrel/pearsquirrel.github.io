@@ -3,8 +3,6 @@
 // VARIABLES
 //
 
-/* CONFIGURATION */
-
 /* Bodytext font */
 $font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -15,26 +13,3 @@ $fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $text: #119933;
 $textmuted: #848484;
 $accent: #2077b2;
-
-// Colors
-$blue: #4183C4; 
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
