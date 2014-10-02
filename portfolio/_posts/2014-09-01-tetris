@@ -1,0 +1,18 @@
+---
+layout: post
+title: Tetris Clone
+---
+Tech-Specs: Java, Swing/AWT Framework, Graphics2D, Eclipse IDE
+
+Project Overview
+Using Java’s graphics libraries (Java2D, AWT, Swing), I recreated the popular game,Tetris.
+
+Features
+
+* Clockwise and Counter-Clockwise rotation
+* Pause functionality
+* Cleared Line Tally (Scoring System)
+* Customizable board size
+* All 7 tetrominos (Square, Line, T, L, Reversed L, S, and Z) with their own colors
+* Custom graphics
+* uses Java’s Timer class
