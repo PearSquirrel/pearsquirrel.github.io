@@ -86,14 +86,6 @@ body.nav-hidden {
 
 .site-nav {
     header {
-        width: 100%;
-        height: 150px;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 999;
-        background-color: #0683c9;
         -webkit-transition: height 0.3s;
         -moz-transition: height 0.3s;
         -ms-transition: height 0.3s;
@@ -120,20 +112,13 @@ body.nav-hidden {
         float: right;
     }
     header nav a {
-        line-height: 150px;
-        margin-left: 20px;
-        color: #9fdbfc;
-        font-weight: 700;
-        font-size: 18px;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s;
     }
-    header nav a:hover {
-        color: white;
-    }
+
     header.smaller {
         height: 75px;
     }
