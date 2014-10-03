@@ -1,15 +1,6 @@
 ---
 layout: default
 ---
-<div class="blog-cover" style="background-image:url({{ site.cover_image }});">
-    
-    <section>
-        <div class="container">
-            <h1>{{ site.inc.title }}</h1>
-            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
-        </div>
-    </section>
-</div>
 
 <article class="container">
 {% for post in site.categories.portfolio %}
