@@ -85,33 +85,13 @@ body.nav-hidden {
 }
 
 .site-nav {
-    header {
-        -webkit-transition: height 0.3s;
-        -moz-transition: height 0.3s;
-        -ms-transition: height 0.3s;
-        -o-transition: height 0.3s;
-        transition: height 0.3s;
-    }
-    header h1#logo {
-        display: inline-block;
-        height: 150px;
-        line-height: 150px;
-        float: left;
-        font-family: "Oswald", sans-serif;
-        font-size: 60px;
-        color: white;
-        font-weight: 400;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -ms-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-    header nav {
-        display: inline-block;
-        float: right;
-    }
-    header nav a {
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+    
+    h1#logo {
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
@@ -119,17 +99,12 @@ body.nav-hidden {
         transition: all 0.3s;
     }
 
-    header.smaller {
-        height: 75px;
-    }
-    header.smaller h1#logo {
-        width: 150px;
-        height: 75px;
-        line-height: 75px;
-        font-size: 30px;
-    }
-    header.smaller nav a {
-        line-height: 75px;
+    nav a {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
     }
     
     @media all and (max-width: 660px) {
@@ -168,3 +143,19 @@ body.nav-hidden {
         }
     }
 }
+
+header.smaller {
+        height: 75px;
+}
+
+header.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+header.smaller nav a {
+    line-height: 75px;
+}
+
