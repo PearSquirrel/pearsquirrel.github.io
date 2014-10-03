@@ -106,56 +106,56 @@ body.nav-hidden {
         -o-transition: all 0.3s;
         transition: all 0.3s;
     }
-    
-    @media all and (max-width: 660px) {
-        header h1#logo {
-            display: block;
-            float: none;
-            margin: 0 auto;
-            height: 100px;
-            line-height: 100px;
-            text-align: center;
-        }
-        header nav {
-            display: block;
-            float: none;
-            height: 50px;
-            text-align: center;
-            margin: 0 auto;
-        }
-        header nav a {
-            line-height: 50px;
-            margin: 0 10px;
-        }
-        header.smaller {
-            height: 75px;
-        }
-        header.smaller h1#logo {
-            height: 40px;
-            line-height: 40px;
-            font-size: 30px;
-        }
-        header.smaller nav {
-            height: 35px;
-        }
-        header.smaller nav a {
-            line-height: 35px;
-        }
+}
+
+@media all and (max-width: 660px) {
+    .site-nav h1#logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .site-nav nav {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .site-nav nav a {
+        line-height: 50px;
+        margin: 0 10px;
+    }
+    .site-nav.smaller {
+        height: 75px;
+    }
+    .site-nav.smaller h1#logo {
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .site-nav.smaller nav {
+        height: 35px;
+    }
+    .site-nav.smaller nav a {
+        line-height: 35px;
     }
 }
 
-header.smaller {
+.site-nav.smaller {
         height: 75px;
 }
 
-header.smaller h1#logo {
+.site-nav.smaller h1#logo {
     width: 150px;
     height: 75px;
     line-height: 75px;
     font-size: 30px;
 }
 
-header.smaller nav a {
+.site-nav.smaller nav a {
     line-height: 75px;
 }
 
