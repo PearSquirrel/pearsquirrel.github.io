@@ -1,6 +1,6 @@
 .site-nav {
     background:#fff;
-    height:60px;
+    height:90px;
     position:fixed;
     left:0;
     right:0;
@@ -26,7 +26,7 @@
     }
     
     nav {
-        padding:12px 30px;
+        padding:0px 30px;
         float:left;
         height:80px;
         display:table-cell;
@@ -92,7 +92,7 @@ body.nav-hidden {
     transition: height 0.3s;
     
     nav {
-        height: 60px;
+        height: 90px;
         -webkit-transition: height 0.3s;
         -moz-transition: height 0.3s;
         -ms-transition: height 0.3s;
@@ -109,6 +109,7 @@ body.nav-hidden {
     }
 
     nav a {
+        line-height: 90px;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
@@ -118,10 +119,10 @@ body.nav-hidden {
 }
 
 .site-nav.smaller {
-    height: 75px;
+    height: 60px;
     
     nav {
-        height: 75px;
+        height: 60px;
     }
     
     h1#logo {
@@ -131,7 +132,7 @@ body.nav-hidden {
         font-size: 30px;
     }
     nav a {
-        line-height: 75px;
+        line-height: 60px;
     }
 
 }
