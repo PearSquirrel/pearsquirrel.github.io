@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Darien High School Website
 ---
 Tech-Specs: Custom CMS Development, XHTML, PHP, AJAX
