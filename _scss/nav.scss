@@ -92,6 +92,7 @@ body.nav-hidden {
     transition: height 0.3s;
     
     nav {
+        height: 60px;
         -webkit-transition: height 0.3s;
         -moz-transition: height 0.3s;
         -ms-transition: height 0.3s;
