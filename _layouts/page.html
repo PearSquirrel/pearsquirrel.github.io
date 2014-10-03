@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<section class="page-title">
+  <div class="container">
+    <h1 class="title">{{ page.title }}</h1>
+  </div>
+</section>
 
 {% if page.cover_image %}
 <div class="article-cover">
@@ -11,11 +16,6 @@ layout: default
 {% endif %}
 <article>
     <div class="container">
-        <header>
-            <h1 class="title">{{ page.title }}</h1>
-            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
-        </header>
-
         <section>
             {{ content }}
         </section>
