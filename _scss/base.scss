@@ -24,8 +24,47 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5 {
-    color:#263c4c;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.111em;
+  margin-bottom: .25em;
+}
+h2 {
+  font-size: 30px;
+  line-height: 1.111em;
+  margin-bottom: .5em;
+}
+h3 {
+  font-size: 24px;
+  line-height: 1.333em;
+  margin-bottom: .5em;
+}
+h4 {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: .333em;
+}
+h5 {
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-bottom: .25em;
+}
+h6 {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  margin-bottom: .25em;
 }
 
 h1, h2 {
