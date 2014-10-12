@@ -215,12 +215,13 @@ a {
 }
 
 .page-title {
-    height: 60px;
+    height: auto;
     background-color: #33877d;
     
     h1 {
         margin: 0px;
         padding-top: 10px;
+        padding-bottom: 10px;
         padding-left: 3%;
         color: #fff;
     }
