@@ -39,7 +39,7 @@
         padding:0px 30px;
         padding-left: 100px;
         float:left;
-        height:80px;
+        min-height:80px;
         display:table-cell;
     }
     
@@ -176,6 +176,10 @@ body.nav-hidden {
     }
     .site-nav.smaller {
         height: 75px;
+    }
+    
+    .site-nav .brand {
+        display:none;
     }
     .site-nav.smaller h1#logo {
         height: 40px;
