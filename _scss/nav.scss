@@ -37,13 +37,13 @@
     
     nav {
         padding:0px 30px;
+        padding-left: 100px;
         float:left;
         height:80px;
         display:table-cell;
     }
     
     #navigation {
-        padding-left: 100px;
         padding-right:0;
         
         a {
@@ -163,7 +163,7 @@ body.nav-hidden {
         text-align: center;
     }
     .site-nav nav {
-        padding-left: auto;
+        padding-left: 0;
         display: block;
         float: none;
         height: 50px;
