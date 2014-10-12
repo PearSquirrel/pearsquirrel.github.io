@@ -15,14 +15,17 @@
         opacity:0.2;
     }
     
+    .brand {
+        position: absolute;
+        left: 0;
+    }
+    
     .brand img {
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s;
-        position: absolute;
-        left: 0;
         height:60px;
         margin-right:10px;
         margin-top:-2px;
@@ -140,9 +143,12 @@ body.nav-hidden {
         line-height: 60px;
     }
     
+    .brand {
+        left: 10px;
+    }
+    
     .brand img {
         height: 40px;
-        left: 10px;
     }
 
 }
