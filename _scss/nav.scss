@@ -143,23 +143,19 @@ body.nav-hidden {
     }
 
 }
-/*
-@media all and (max-width: 660px) {
+
+@media all and (max-width: 500px) {
     
     .site-nav nav {
         padding-left: 0;
-        display: block;
-        float: none;
+        /*display: block;*/
+        float: left;
         height: 50px;
-        text-align: center;
         margin: 0 auto;
     }
     .site-nav nav a {
         line-height: 50px;
         margin: 0 10px;
-    }
-    .site-nav.smaller {
-        height: 75px;
     }
     
     .site-nav .brand {
@@ -172,4 +168,4 @@ body.nav-hidden {
     .site-nav.smaller nav a {
         line-height: 35px;
     }
-}*/
+}
