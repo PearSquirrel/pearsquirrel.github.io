@@ -154,14 +154,7 @@ body.nav-hidden {
 }
 
 @media all and (max-width: 660px) {
-    .site-nav h1#logo {
-        display: block;
-        float: none;
-        margin: 0 auto;
-        height: 100px;
-        line-height: 100px;
-        text-align: center;
-    }
+    
     .site-nav nav {
         padding-left: 0;
         display: block;
@@ -181,11 +174,7 @@ body.nav-hidden {
     .site-nav .brand {
         display:none;
     }
-    .site-nav.smaller h1#logo {
-        height: 40px;
-        line-height: 40px;
-        font-size: 30px;
-    }
+    
     .site-nav.smaller nav {
         height: 35px;
     }
