@@ -39,7 +39,6 @@
         padding:0px 30px;
         padding-left: 100px;
         float:left;
-        min-height:80px;
         display:table-cell;
     }
     
@@ -115,14 +114,6 @@ body.nav-hidden {
         -ms-transition: height 0.3s;
         -o-transition: height 0.3s;
         transition: height 0.3s; 
-    }
-    
-    h1#logo {
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -ms-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
     }
 }
 
