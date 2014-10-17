@@ -150,11 +150,15 @@ body.nav-hidden {
 
 @media all and (max-width: 500px) {
     
+    .site-nav {
+        height: auto;
+    }
+    
     .site-nav nav {
         padding-left: 0;
         /*display: block;*/
         float: left;
-        height: 50px;
+        height: 100%;
         margin: 0 auto;
         
         #pull {
@@ -164,6 +168,10 @@ body.nav-hidden {
     .site-nav nav a {
         line-height: 50px;
         margin: 0 10px;
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 20px;
     }
     
     .site-nav .brand {
