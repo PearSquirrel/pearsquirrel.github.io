@@ -15,7 +15,7 @@ function init() {
 
 function togglePullDown() {
     id = document.querySelector(".site-nav");
-    if (classie.has(id,".hidden-pulldown")) {
+    if (classie.has(id,"hidden-pulldown")) {
         classie.remove(id,"hidden-pulldown");
     } else {
         classie.add(id,"hidden-pulldown");
