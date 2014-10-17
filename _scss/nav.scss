@@ -55,12 +55,12 @@
         transition: height 0.3s;
         
         a {
-            border:0;
-            margin:0 0.9em;
-            display:inline-block;
+            border: 0;
+            padding: 0 0.9em;
+            display: inline-block;
             
             &:hover {
-                color:$accent;
+                color: $accent;
             }
         }
         
