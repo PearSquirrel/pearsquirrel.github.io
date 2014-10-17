@@ -14,11 +14,13 @@ function init() {
 }
 
 function togglePullDown() {
-    id = document.querySelector(".site-nav #navigation a");
-    if (classie.has(id,"display-none")) {
-        classie.remove(id,"display-none");
-    } else {
-        classie.add(id,"display-none");
+    ids = document.querySelectorAll(".site-nav #navigation a");
+    for (i = 0; i < ids.length; ++i) {
+        if (classie.has(ids[i],"display-none")) {
+            classie.remove(ids[i],"display-none");
+        } else {
+            classie.add(ids[i],"display-none");
+        }
     }
 }
 
