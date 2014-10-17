@@ -152,6 +152,12 @@ body.nav-hidden {
     display: none !important;
 }
 
+.site-nav.hidden-pulldown {
+     #navigation > a {
+         display: none !important;
+     }
+}
+
 @media all and (max-width: 500px) {
     
     .site-nav {
