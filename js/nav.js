@@ -12,4 +12,16 @@ function init() {
         }
     });
 }
+
+$(document).ready(function(){
+    $('#pull').click(function(){
+        id = document.querySelector(".site-nav #navigation a");
+        if (classie.has(id,"display")) {
+            classie.remove(id,"display");
+        } else {
+            classie.add(id,"display");
+        }
+    });
+});
+
 window.onload = init();
