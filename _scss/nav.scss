@@ -64,6 +64,18 @@
             }
         }
         
+        ul {
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+            
+            li {
+                display: inline;  
+                float: left;
+            }
+            
+        }
+        
         ul li > a, .dropdown-toggle  {
             font-size: 19px;
             line-height: 90px;
