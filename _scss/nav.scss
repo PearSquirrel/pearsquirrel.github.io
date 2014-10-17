@@ -117,28 +117,22 @@ body.nav-hidden {
 .site-nav.smaller {
     height: 60px;
     
-    nav {
+    #navigation {
         height: 60px;
-    }
-    
-    h1#logo {
-        width: 150px;
-        height: 75px;
-        line-height: 75px;
-        font-size: 30px;
-    }
-    #navigation ul li > a, .dropdown-toggle {
+        
+        ul li > a, .dropdown-toggle {
         line-height: 60px;
+        }
     }
     
     .brand {
+        line-height: 60px;
         left: 10px;
+        
+        img {
+            height: 40px;
+        }
     }
-    
-    .brand img {
-        height: 40px;
-    }
-
 }
 
 .display-none {
