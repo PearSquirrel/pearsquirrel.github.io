@@ -28,4 +28,8 @@ window.onload = init();
 
 document.getElementById('pull').onclick = function() {
     togglePullDown();
+    
+    if (classie.has(document.querySelector("#pull"),"display-none")) {
+            classie.remove(ids[i],"display-none");
+    }
 }
