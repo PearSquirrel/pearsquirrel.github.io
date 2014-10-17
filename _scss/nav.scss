@@ -20,22 +20,7 @@
         opacity:0.2;
     }
     
-    .brand {
-        position: absolute;
-        left: 0;
-        line-height: 90px;
-    }
-    
-    .brand img {
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -ms-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-        height:60px;
-        margin-right:10px;
-        margin-top:-2px;
-    }
+
     
     .dropdown {
         display:inline-block;
@@ -44,7 +29,6 @@
     #navigation {
         padding-top: 0;
         padding-bottom: 0;
-        padding-left: 100px;
         padding-right:0;
         float:left;
         display:table-cell;
@@ -65,11 +49,27 @@
             }
         }
         
+        .brand {
+            float: left;
+            line-height: 90px;
+        }
+        
+        .brand img {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            height:60px;
+            margin-right:10px;
+            margin-top:-2px;
+        }
+        
         ul {
             padding: 0;
             margin: 0 auto;
-            width: 100%;
-            
+            padding-left: 100px;
+
             li {
                 display: inline;  
                 float: left;
