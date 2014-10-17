@@ -161,6 +161,10 @@ body.nav-hidden {
             height: 100%;
             margin: 0 auto;
             
+            li {
+                width: 100%;
+            }
+            
             #pull {
                 display:block;
                 color: #FFF;
