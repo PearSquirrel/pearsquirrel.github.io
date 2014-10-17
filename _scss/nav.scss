@@ -175,12 +175,7 @@ body.nav-hidden {
     }
     
     .site-nav #navigation .brand {
-        left: 200px;
-        bottom: 0;
-        -moz-transition: none;
-        -webkit-transition: none;
-        -o-transition: color 0 ease-in;
-        transition: none;
+        display: none;
     }
     
     .site-nav.smaller nav {
