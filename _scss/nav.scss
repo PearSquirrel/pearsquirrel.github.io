@@ -154,38 +154,38 @@ body.nav-hidden {
     
     .site-nav {
         height: auto;
-    }
-    
-    .site-nav nav {
-        padding-left: 0;
-        /*display: block;*/
-        float: left;
-        height: 100%;
-        margin: 0 auto;
         
-        #pull {
-            display:block;
-            color: #FFF;
-            padding: 20px;
+        #navigation {
+            padding-left: 0;
+            float: left;
+            height: 100%;
+            margin: 0 auto;
+            
+            #pull {
+                display:block;
+                color: #FFF;
+                padding: 20px;
+            }
+            a {
+            line-height: 50px;
+            margin: 0 10px;
+            float: left;
+            width: 100%;
+            margin-left: 0;
+            padding-left: 20px;
+            }
+            
+            a.brand {
+            display: none;
+            }
         }
     }
-    .site-nav nav a {
-        line-height: 50px;
-        margin: 0 10px;
-        float: left;
-        width: 100%;
-        margin-left: 0;
-        padding-left: 20px;
-    }
     
-    .site-nav #navigation a.brand {
-        display: none;
-    }
-    
-    .site-nav.smaller nav {
+    .site-nav.smaller #navigation {
         height: 35px;
-    }
-    .site-nav.smaller nav a {
-        line-height: 35px;
+        
+        a {
+            line-height: 35px;
+        }
     }
 }
