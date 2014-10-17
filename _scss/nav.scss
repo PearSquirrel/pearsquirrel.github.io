@@ -113,7 +113,11 @@ body.nav-hidden {
         -moz-transition: height 0.3s;
         -ms-transition: height 0.3s;
         -o-transition: height 0.3s;
-        transition: height 0.3s; 
+        transition: height 0.3s;
+        
+        #pull {
+            display: none;
+        }
     }
 }
 
@@ -152,6 +156,10 @@ body.nav-hidden {
         float: left;
         height: 50px;
         margin: 0 auto;
+        
+        #pull {
+            display:block;
+        }
     }
     .site-nav nav a {
         line-height: 50px;
