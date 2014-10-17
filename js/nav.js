@@ -13,14 +13,14 @@ function init() {
     });
 }
 
-function togglePullDown(){
+function togglePullDown() {
     id = document.querySelector(".site-nav #navigation a");
     if (classie.has(id,"display-none")) {
         classie.remove(id,"display-none");
     } else {
         classie.add(id,"display-none");
     }
-});
+}
 
 window.onload = init();
 
