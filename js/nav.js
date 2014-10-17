@@ -16,10 +16,10 @@ function init() {
 $(document).ready(function(){
     $('#pull').click(function(){
         id = document.querySelector(".site-nav #navigation a");
-        if (classie.has(id,"display")) {
-            classie.remove(id,"display");
+        if (classie.has(id,"display-none")) {
+            classie.remove(id,"display-none");
         } else {
-            classie.add(id,"display");
+            classie.add(id,"display-none");
         }
     });
 });
