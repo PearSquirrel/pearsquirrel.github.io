@@ -149,7 +149,7 @@ body.nav-hidden {
 }
 
 .display-none {
-    display: none;
+    display: none !important;
 }
 
 @media all and (max-width: 500px) {
