@@ -138,11 +138,18 @@ body.cover-image {
     .site-nav {
         background: transparent;
         
+        #navigation a:hover {
+            color: #CCC;
+        }
     }
-    .site-nav 
-    
+
     .site-nav.smaller {
         background: #303338;
+        
+                
+        #navigation a:hover {
+            color: #0a9268;
+        }
     }
 }
 
