@@ -144,13 +144,13 @@ body.nav-hidden {
     display: none !important;
 }
 
-.site-nav.hidden-pulldown {
-     #navigation ul {
-         display: none !important;
-     }
-}
-
 @media all and (max-width: 500px) {
+    
+    .site-nav.hidden-pulldown {
+         #navigation ul {
+             display: none !important;
+         }
+    }
     
     .site-nav {
         height: auto;
