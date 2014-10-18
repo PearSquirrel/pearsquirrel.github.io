@@ -22,9 +22,9 @@
   </head>
 
   <body class="hidden-pulldown">
-    <section class="site-nav">
+    <section class="site-nav{% if page.cover_image %} cover-image{% endif %}">
       <header>
-        <nav id="navigation"{% if page.cover_image %} class="cover-image"{% endif %}>
+        <nav id="navigation">
           <a href="{{ site.baseurl }}/" class="brand"><img src="{{ site.logo }}" /></a>
           <ul>
             <li><a href="{{ site.baseurl }}/">About</a></li>
