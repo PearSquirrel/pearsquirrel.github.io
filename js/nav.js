@@ -16,7 +16,7 @@ function init() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
             shrinkOn = 100,
-            header = document.querySelector("body");
+            header = document.querySelector(".site-nav");
         if (distanceY > shrinkOn && getWidth() > 500) {
             classie.add(header,"smaller");
         } else {
@@ -30,7 +30,7 @@ function init() {
 
 
 function togglePullDown() {
-    id = document.querySelector(".site-nav");
+    id = document.querySelector("body");
     if (classie.has(id,"hidden-pulldown")) {
         classie.remove(id,"hidden-pulldown");
     } else {
