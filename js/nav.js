@@ -16,7 +16,7 @@ function init() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
             shrinkOn = 100,
-            header = document.querySelector(".site-nav");
+            header = document.querySelector("body");
         if (distanceY > shrinkOn && getWidth() > 500) {
             classie.add(header,"smaller");
         } else {
