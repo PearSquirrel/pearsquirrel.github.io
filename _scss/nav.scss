@@ -113,7 +113,6 @@
 
 .site-nav.smaller {
     height: 60px;
-    background: #303338;
     
     #navigation {
         height: 60px;
@@ -137,9 +136,14 @@ body.cover-image {
     padding-top: 0px;
     
     .site-nav {
-        background: pink;
+        background: transparent;
+    }
+    
+    .site-nav.smaller {
+        background: #303338;
     }
 }
+
 
 @media all and (max-width: 500px) {
     
