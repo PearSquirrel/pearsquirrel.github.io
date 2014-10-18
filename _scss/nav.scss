@@ -155,9 +155,12 @@
             float: left;
             height: 100%;
             margin: 0 auto;
-            
-            li {
-                width: 100%;
+            ul {
+                padding-left: 0px;
+                
+                li {
+                    width: 100%;
+                }
             }
             
             #pull {
