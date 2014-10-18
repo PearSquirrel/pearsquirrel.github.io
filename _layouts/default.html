@@ -24,7 +24,7 @@
   <body class="hidden-pulldown">
     <section class="site-nav">
       <header>
-        <nav id="navigation">
+        <nav id="navigation"{% if page.cover_image %} class="cover-image"{% endif %}>
           <a href="{{ site.baseurl }}/" class="brand"><img src="{{ site.logo }}" /></a>
           <ul>
             <li><a href="{{ site.baseurl }}/">About</a></li>
