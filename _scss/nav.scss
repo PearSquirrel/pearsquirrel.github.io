@@ -146,12 +146,18 @@ body.cover-image {
 
 
 @media all and (max-width: 500px) {
-    
+    body.cover-image {
+        margin-top: -90px;
+        
+        .site-nav {
+            background: #303338;
+        }
+    }
+
     body.hidden-pulldown {
         padding-top: 0px;
         
         .site-nav {
-            background: #303338;
             position: static;
             
             #navigation ul {
