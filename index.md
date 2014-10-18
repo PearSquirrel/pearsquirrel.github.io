@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+cover_image: first-post.png
 ---
 
 Some information about you!
