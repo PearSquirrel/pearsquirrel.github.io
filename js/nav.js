@@ -23,7 +23,3 @@ function togglePullDown() {
 }
 
 window.onload = init();
-
-document.getElementById('pull').onclick = function() {
-    togglePullDown();
-}
