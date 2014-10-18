@@ -134,12 +134,16 @@
 
 @media all and (max-width: 500px) {
     
-    .site-nav.hidden-pulldown {
-        position: static;
+    body.hidden-pulldown {
+        padding-top: 0px;
         
-         #navigation ul {
-             display: none !important;
-         }
+        .site-nav {
+            position: static;
+            
+            #navigation ul {
+                display: none !important;
+            }
+        }
     }
     
     .site-nav {
