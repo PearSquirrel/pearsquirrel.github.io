@@ -108,6 +108,31 @@ a {
     }
 }
 
+.home-cover {
+    max-width: 100%;
+    margin-top: 0;
+    position: relative;
+    max-height: 560px;
+    overflow: hidden;
+    background: #33877d;
+    height: 401px;
+    border-bottom: 10px solid #000;
+    
+    > div {
+        max-height: 480px;
+        line-height: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .image {
+        float: left;
+        max-height: 100%;
+        width: 50%;
+    }
+}
+
 .index {
     margin:0 5em;
     
