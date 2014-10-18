@@ -88,6 +88,26 @@ a {
     margin:0 auto;
 }
 
+.article-cover {
+    max-width: 100%;
+    margin-top: 0;
+    position: relative;
+    max-height:460px;
+    overflow:hidden;
+    background:#eee;
+    
+    > div {
+        max-height: 480px;
+        line-height: 0;
+    }
+    
+    .image {
+        width: 100%;
+        top: 0;
+        position:relative;
+    }
+}
+
 .index {
     margin:0 5em;
     
