@@ -9,7 +9,7 @@ name: Channing Pear
 description: Student at The University of Texas at Austin
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-logo: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+logo: /images/pear-logo.png
 cover_image: http://blog.sendtoinc.com/assets/blog-cover.jpg
 #
 # Flags below are optional
