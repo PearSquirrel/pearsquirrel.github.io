@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-cover_image: first-post.png
+cover_image: new-york-silhouette.jpg
 ---
 
 Some information about you!

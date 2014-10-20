@@ -88,6 +88,51 @@ a {
     margin:0 auto;
 }
 
+.article-cover {
+    max-width: 100%;
+    margin-top: 0;
+    position: relative;
+    max-height:460px;
+    overflow:hidden;
+    background:#eee;
+    
+    > div {
+        max-height: 480px;
+        line-height: 0;
+    }
+    
+    .image {
+        width: 100%;
+        top: 0;
+        position:relative;
+    }
+}
+
+.home-cover {
+    max-width: 100%;
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+    background: #33877d;
+    height: 400px;
+    border-bottom: 10px solid #000;
+    
+    > div {
+        max-height: 480px;
+        line-height: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .image {
+        float: left;
+        max-height: 200px;
+        width: 50%;
+        max-width: 886px;
+    }
+}
+
 .index {
     margin:0 5em;
     
