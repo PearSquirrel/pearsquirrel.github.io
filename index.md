@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-cover_image:
+cover_image: none
 ---
 
 Some information about you!
