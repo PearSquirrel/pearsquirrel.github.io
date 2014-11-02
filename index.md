@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-cover_image: none
+headline: Channing Pear
 ---
 
 Some information about you!
