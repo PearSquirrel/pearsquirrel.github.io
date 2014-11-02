@@ -146,11 +146,17 @@ background-image: linear-gradient(to bottom, #0066CC 0%, #5196DB 100%);
         max-width: 886px;
     }
     
-    h1#banner {
+    h1#headline {
     	font-weight: 900;
 	color: white;
 	text-align: center;
 	font-size: 50px;
+    }
+    
+    div#cover-image {
+    	position: absolute;
+    	bottom: 0;
+    	width: 100%;
     }
 }
 
