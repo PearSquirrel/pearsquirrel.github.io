@@ -171,7 +171,12 @@ body.cover-image {
         .site-nav {
 
             #navigation ul {
-                display: none !important;
+                max-height: 0;
+                overflow: hidden;
+                -moz-transition: height 1s ease;
+                -webkit-transition: height 1s ease;
+                -o-transition: height 1s ease;
+                transition: height 1s ease;
             }
         }
     }
@@ -187,6 +192,11 @@ body.cover-image {
             margin: 0 auto;
             ul {
                 padding-left: 0px;
+                overflow: hidden;
+                -moz-transition: height 1s ease;
+                -webkit-transition: height 1s ease;
+                -o-transition: height 1s ease;
+                transition: height 1s ease;
                 
                 li {
                     width: 100%;
