@@ -154,10 +154,18 @@ body.cover-image {
 
 
 @media all and (max-width: 500px) {
+    
+    .site-nav {
+        background: transparent;
+        
+        #navigation ul {
+            background: #303338;
+        }
+    }
+    
     body.cover-image {
         
         .site-nav {
-            background: #303338;
             
             #navigation a:hover {
                 color: #0a9268;
