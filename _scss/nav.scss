@@ -217,9 +217,17 @@ body.cover-image {
             }
             
             #pull {
-                display:block;
+                display: inline-block;
+                float: left;
                 color: #FFF;
-                padding: 20px;
+                background: #000;
+                padding: 0px;
+                line-height: normal;
+                width: initial;
+                
+                i {
+                    padding: 10px;
+                }
             }
             
             a {
