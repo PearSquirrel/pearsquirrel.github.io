@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Darien High School Website
+darien-high-school.png
 ---
 Tech-Specs: Custom CMS Development, XHTML, PHP, AJAX
 
