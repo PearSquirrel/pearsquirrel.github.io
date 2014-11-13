@@ -11,6 +11,11 @@ layout: default
     <section class="index">
         <div>
             <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+            {% if post.image %}
+            <div class="post-image">
+              <img src="/images/{{ post.image }}" class="image">
+            </div>
+            {% endif %}
             <p>{{ post.excerpt }}</p>
         </div>
         <hr>
