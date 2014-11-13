@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PearSquirrel
+image: pearsquirrel.png
 ---
 Website: http://youtube.com/user/PearSquirrel
 
