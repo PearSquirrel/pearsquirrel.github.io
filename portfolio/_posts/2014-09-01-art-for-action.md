@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Art for Action Website
+image: darien-afa.png
 ---
 Website: http://darienartforaction.org
 
