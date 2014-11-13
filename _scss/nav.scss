@@ -173,10 +173,10 @@ body.cover-image {
             #navigation ul {
                 max-height: 0;
                 overflow: hidden;
-                -moz-transition: height 1s ease;
-                -webkit-transition: height 1s ease;
-                -o-transition: height 1s ease;
-                transition: height 1s ease;
+                -moz-transition: max-height 1s ease;
+                -webkit-transition: max-height 1s ease;
+                -o-transition: max-height 1s ease;
+                transition: max-height 1s ease;
             }
         }
     }
@@ -191,12 +191,13 @@ body.cover-image {
             height: 100%;
             margin: 0 auto;
             ul {
+                max-height:1000px;
                 padding-left: 0px;
                 overflow: hidden;
-                -moz-transition: height 1s ease;
-                -webkit-transition: height 1s ease;
-                -o-transition: height 1s ease;
-                transition: height 1s ease;
+                -moz-transition: max-height 1s ease;
+                -webkit-transition: max-height 1s ease;
+                -o-transition: max-height 1s ease;
+                transition: max-height 1s ease;
                 
                 li {
                     width: 100%;
