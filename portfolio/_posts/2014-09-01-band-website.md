@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Darien High School Band Website
+image: blue-wave-band.png
 ---
 Website: http://bluewaveband.wordpress.com
 
