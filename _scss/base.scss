@@ -1,7 +1,6 @@
 body {
     margin:0;
     border:0;
-    padding:90px 0 0;
     background-color:$background-color;
     font-family:$font;
     color:$text;
@@ -184,6 +183,7 @@ background-image: linear-gradient(to bottom, #0066CC 0%, #5196DB 100%);
 .page-title {
     height: auto;
     background-color: $primary;
+    padding-top: 90px;
     
     h1 {
         margin: 0px;
