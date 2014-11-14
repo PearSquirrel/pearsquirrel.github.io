@@ -2,6 +2,8 @@
 layout: post
 title: New Website!
 ---
+I just finished updating my site to a new design and new technologies. Thanks to Jekyll and GitHub Pages, everything is easy, fast, and free!
+
 ### The Reason
 After using my old website for a while, I figured it needed a redesign.  The old website used wordpress, which is a great CMS for people who like the graphical front-end it provides.  As the person managing the website, though, I found it to be more of a nuisance than a time-saver.  The site was clunky and there was a lot of unused functionality that ended up making it a pain to backup or move around. Lastly, my old website was very slow.  Files were large and wordpress can't compare with the speed of loading static webpages.  I needed an easy way to put myself on the web without the actual implementation getting in my way.
 
