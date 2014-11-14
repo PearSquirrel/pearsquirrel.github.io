@@ -5,7 +5,9 @@ headline: Channing Pear
 ---
 ### Education
 University of Texas at Austin '18
+
 BS Computer Science
+
 Turing Scholars Computer Science Honors Program
 
 ### Work
