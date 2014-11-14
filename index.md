@@ -14,6 +14,7 @@ Turing Scholars Computer Science Honors Program
 * [Resume]({{site.base_url}}/assets/resume.pdf)
 * [LinkedIn](https://www.linkedin.com/pub/channing-pear/96/954/236)
 * [Blog]({{site.base_url}}/blog)
+* [Portfolio]({{site.base_url}}/portfolio)
 
 ### Contact
 [channing.pear@utexas.edu](mailto:channing.pear@utexas.edu)
