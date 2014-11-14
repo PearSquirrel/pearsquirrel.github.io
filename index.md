@@ -3,13 +3,15 @@ layout: home
 title: Home
 headline: Channing Pear
 ---
+### Education
+University of Texas at Austin '18
+BS Computer Science
+Turing Scholars Computer Science Honors Program
 
-Some information about you!
+### Work
+* [{{site.base_url}}/assets/resume.pdf](Resume)
+* [https://www.linkedin.com/pub/channing-pear/96/954/236](LinkedIn)
+* [{{site.base_url}}/blog](Blog)
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+### Contact
+[channing.pear@utexas.edu](mailto:channing.pear@utexas.edu)
